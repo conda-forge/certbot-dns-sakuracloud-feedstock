@@ -1,6 +1,6 @@
 context:
   name: certbot-dns-sakuracloud
-  version: "5.5.0"
+  version: "5.7.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 62385beb78e3c3d9c3f4cfbc5ac753803fe0a1422c02a01b09b708c133c74a47
+  sha256: 4e9583fe1c9e51bb901546f95d47106fdb2e71d16f3b7b8303590cfbbe48a128
 
 build:
   noarch: python
